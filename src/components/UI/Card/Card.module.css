@@ -1,0 +1,41 @@
+.Card {
+  display: flex;
+  flex-flow: wrap-reverse column;
+  gap: 2vmin;
+
+  width: 576px;
+  margin-top: 3vmin;
+  padding: 1.5vmin;
+
+  background-color: #E7ECEF;
+}
+
+.Card, .Card>* {
+  border: none;
+  border-radius: 7px;
+  box-shadow: 1px 1px 3px rgba(39, 76, 119, 0.3);
+  color: rgba(39, 76, 119, 0.75);
+}
+.Card > *::placeholder{
+  color: rgba(39, 76, 119, 0.75);
+}
+.buttonGroup {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: flex-end;
+  gap: 2.5%;
+  box-shadow: none;
+}
+
+.buttonGroup>* {
+  box-shadow: 1px 1px 3px rgba(39, 76, 119, 0.192);;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .Card {
+    width: 88vw;
+    gap: 4vmin;
+    padding: 3vmin;
+  }
+}

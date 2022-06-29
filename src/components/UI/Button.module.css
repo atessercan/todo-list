@@ -1,0 +1,31 @@
+.Button {
+  width: 90px;
+  height: 45px;
+  min-height: 3vmin;
+
+  font-size: calc(8px + 1vmin);
+  font-weight: 500;
+
+  cursor: pointer;
+  border: none;
+  border-radius: 7px;
+
+  color: white;
+
+  padding: 2px;
+
+}
+
+.Button:hover {
+  opacity: 0.8;
+}
+
+.Button-primary {
+  background-color: #6096BA;
+}
+
+
+.Button-secondary {
+  background-color: #A3CEF1;
+
+}
