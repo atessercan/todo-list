@@ -1,0 +1,32 @@
+.MiniCalendar {
+  display: flex;
+  flex-flow: nowrap column;
+  justify-content: center;
+  align-items: center;
+  gap: .5vmin;
+  padding-left: 0;
+  width: 90px;
+  min-width: 90px;
+  height: 60px;
+  margin: 0 1.5vmin;
+  box-shadow: 0px 1px 3px rgba(39, 76, 119, 0.4);
+}
+
+.MiniCalendar * {
+  box-shadow: none;
+}
+
+.MiniCalendar__day {
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.MiniCalendar__month {
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.MiniCalendar__year {
+  font-size: 12px;
+  font-weight: bold;
+}

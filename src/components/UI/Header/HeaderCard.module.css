@@ -1,0 +1,10 @@
+.HeaderCard {
+  display: flex;
+  flex-flow: nowrap row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.HeaderCard div {
+  margin-left: 20px;
+}

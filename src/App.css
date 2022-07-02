@@ -5,4 +5,9 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  margin-top: 1vmin;
+}
+
+.App-child{
+  margin-bottom: 4vmin;
 }

@@ -1,14 +1,11 @@
 import Card from "./components/UI/Card/Card";
-
+import CardClasses from "./components/UI/Card/Card.module.css";
 import "./App.css";
 
 function App() {
- 
   return (
     <div className="App">
-      <Card cardType="header"/>
-      <Card cardType="addTask"/>
-      <Card cardType="taskList" />
+      <Card className={CardClasses.Card} />
     </div>
   );
 }

@@ -3,9 +3,9 @@
   flex: 100%;
   background-color: white;
   font-size: calc(10px + 2vmin);
-  
   border-radius: 7px;
   padding-left: .5rem;
+
 }
 
 .Input::placeholder {

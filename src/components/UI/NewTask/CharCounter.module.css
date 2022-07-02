@@ -1,0 +1,10 @@
+.charCounter {
+  align-self: flex-end;
+  font-size: .8rem;
+  font-weight: 300;
+  font-style: normal;
+  color: #6096BA;
+  box-shadow: none;
+  padding: 0;
+  margin: -15px 5px -10px 0;
+}
