@@ -27,7 +27,7 @@
   justify-content: flex-end;
   gap: 25px;
   flex: 1;
-  margin: 1vmin 3.5vmin 0 .5vmin;
+  margin: .5vmin 3.5vmin 6vmin .5vmin;
 }
 
 .ToolBar>* {
@@ -37,7 +37,7 @@
 .TextArea {
   display: flex;
   justify-content: stretch;
-  align-items: center;
+  align-items: flex-start;
   word-break: break-word;
   font-size: 1.1rem;
   text-indent: 1.5rem;
